@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: url('https://images.unsplash.com/photo-1530834341564-d8ae6d7e25a7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+ background-size: cover;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+h1 {
+  margin-bottom: 20px;
+
+}
+
+.header{
+  color: rgb(0, 0, 0);
+}
+
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #218838;
+}
+
+.loading-text {
+  font-size: 18px;
+  color: #777;
+}
+
+.weather-card, .forecast-day {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2, .forecast-day h3 {
+  margin-top: 0;
+}
+
+.weather-card img, .forecast-card img {
+  margin-bottom: 10px;
+}
+
+.forecast-list {
+  margin-top: 30px;
+}
+
+.forecast-day {
+  margin-bottom: 20px;
+}
+
+.forecast-card {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #e9ecef;
+  border-radius: 8px;
+}
+
+.forecast-card p {
+  margin: 5px 0;
+}
